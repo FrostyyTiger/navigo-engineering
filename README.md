@@ -1,6 +1,6 @@
 # Navigo Intelligence: engineering case study
 
-Marcell Bierbauer-Szigeti, co-founder and CTO. Written 2026-10-15.
+Marcel Bierbauer-Szigeti, co-founder and CTO. Written 2026-10-15.
 
 The code is private. This repo holds the decisions, the numbers behind them (counted 2026-10-15) and three short excerpts of the real code in [`excerpts/`](excerpts/).
 

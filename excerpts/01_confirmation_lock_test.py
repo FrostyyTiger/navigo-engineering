@@ -1,7 +1,7 @@
 # Source:  navigo-bau (private), taken 2026-10-15 at commit dd2721a7:
 #            ai/agent.py, line 976 and lines 996-1002 (start of _resolve_requires_confirmation)
 #            tests/test_confirmation_locked.py, lines 23-60 of 88
-# Author:  Marcell (agent-written under his spec), first commit 2026-06-12.
+# Author:  Marcel (agent-written under his spec), first commit 2026-06-12.
 # Changed: nothing inside the lines shown. Omissions are marked "not shown": the
 #          resolver's docstring and the rest of the function, the test module's
 #          docstring and imports, the test that pins one real send tool, and the

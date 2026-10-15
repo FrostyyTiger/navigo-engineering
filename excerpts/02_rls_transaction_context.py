@@ -2,7 +2,7 @@
 #            core/db/session.py, lines 83-86 and 89-114 (the after_begin listener)
 #            tests/isolation/test_rls_set_local.py, lines 86-128 (one of its tests)
 # Author:  Laszlo (agent-written under his plan), 2026-06-02. The RLS backbone it plugs
-#          into was Marcell's.
+#          into was Marcel's.
 # Changed: nothing inside the lines shown. Test helpers and imports not shown.
 #
 # Why it is here: tenant context used to be a session-level SET on the pooled

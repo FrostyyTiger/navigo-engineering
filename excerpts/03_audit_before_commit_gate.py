@@ -2,7 +2,7 @@
 #          2026-10-15 at commit dd2721a7: lines 430-480 (_audit_precedes_commit) and
 #          503-552 (the per-handler test).
 # Author:  the gate was created by Laszlo on 2026-05-09; the lines shown date from
-#          2026-05 to 2026-09, by Laszlo, Marcell and one unattended agent run.
+#          2026-05 to 2026-09, by Laszlo, Marcel and one unattended agent run.
 # Changed: nothing inside the lines shown. Not shown: the exemption list, the AST
 #          helpers (_is_audit_construction, _is_commit_call, ...), the route collector,
 #          and the test that rejects exemptions naming handlers that do not exist.
