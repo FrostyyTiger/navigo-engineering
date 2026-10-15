@@ -110,7 +110,7 @@ Bau production is one rented server in Germany running the repo's own container 
 
 ## Who built what
 
-Laszlo builds the construction product with me, and since the split he has written most of its changes. Several of Bau's strongest gates are his: the transaction-scoped tenant context, the audit gate, the workflow approval gate, the AI security review as a required merge check, and the mutation-score ratchet. Mine are the architecture and the first RLS backbone, most of the isolation suite, the first version of the AI security review, the confirmation lock, the split into two products, Bau's production and the CI clean room. Outside Bau I built Treu, the company infrastructure, the tester bot, laneboard and the desktop sync client. Several of these came out of sessions where we argued them through together.
+Laszlo builds the construction product with me, and since the split he has written most of its changes. Several of Bau's strongest gates are his: the transaction-scoped tenant context, the audit gate, the workflow approval gate, the AI security review as a required merge check, and the mutation-score ratchet. Mine are the architecture and the first RLS backbone, most of the isolation suite, the security-reviewer agent definition the review runs on (May 2026), the confirmation lock, the split into two products, Bau's production and the CI clean room. Outside Bau I built Treu, the company infrastructure, the tester bot, laneboard and the desktop sync client. Several of these came out of sessions where we argued them through together.
 
 ---
 
