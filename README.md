@@ -77,7 +77,7 @@ Treu started on 2026-09-23, Bau was cut on 2026-09-24, and Bau went into product
 On Bau, 2,200 of 2,476 commits (89%, including the history inherited from the platform) have Claude Code as author or co-author; on Treu, 356 of 389. My time goes into the work around them.
 
 - Each larger piece of work starts as a written plan that says what is in scope and what is not (Bau: 135 plans, 103 done). Decisions go into a numbered log, most with what was given up.
-- A lane is one git worktree with one branch, one plan and one agent session. Lanes run in parallel, unattended if needed, on a build machine that holds no cloud credentials. I built [laneboard](https://github.com/FrostyyTiger/laneboard), public, to watch them.
+- A lane is one git worktree with one branch, one plan and one agent session. Lanes run in parallel, unattended if needed, on a build machine that holds no cloud credentials. I built laneboard, one page that shows every session, to watch them; it is now the screen of foundry, my own agent-loop tool.
 - Bau's `main` has 11 required checks that apply to everyone, admins included: tests, a migration rehearsal on a seeded database, a secret scan, a mutation-score ratchet, and an AI security review (it checks tenant isolation) that Laszlo made a required merge check. It reads the pull request's code and never runs it. Any blocker it raises has to come with a test that proves it.
 - The checks that decide what lands on `main` each run on a fresh single-use VM, with no secrets and no network path to our machines. I call this the clean room. A USD 111 GitHub Actions bill in September started it; keeping pull-request code away from anything with secrets is why it stays.
 - Each requirement gets one Playwright acceptance spec. Assign the task to a tester account, and a bot I built deploys that branch to a rebuildable test environment, replays exactly that spec and drafts a PASS, FAIL or UNCLEAR comment with screenshots for a person to approve.
@@ -114,4 +114,4 @@ Laszlo builds the construction product with me, and since the split he has writt
 
 ---
 
-[github.com/FrostyyTiger](https://github.com/FrostyyTiger) · marcellbierbauer@gmail.com · [LinkedIn](https://www.linkedin.com/in/marcel-bierbauer-szigeti-0665001ba)
+[github.com/FrostyyTiger](https://github.com/FrostyyTiger) · marcellbierbauer@gmail.com · [LinkedIn](https://www.linkedin.com/in/marcel-bierbauer-szigeti)
